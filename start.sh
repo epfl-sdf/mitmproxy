@@ -31,6 +31,9 @@ source $virtFold/bin/activate
 #mitmdump -v
 #mitmdump --insecure
 #mitmproxy
-mitmproxy --insecure
+#mitmproxy --insecure
+
+mitmproxy -p 4443 -R https://128.178.116.120:443/ --insecure
+
 
 deactivate
