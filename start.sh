@@ -33,7 +33,7 @@ source $virtFold/bin/activate
 #mitmproxy
 #mitmproxy --insecure
 
-mitmproxy -p 4443 -R https://128.178.116.120:443/ --insecure
+sudo mitmproxy -p 443 -R https://sdf-openid-dev-6-zf/ --insecure
 
 
 deactivate
