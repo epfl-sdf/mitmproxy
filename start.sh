@@ -33,7 +33,8 @@ source $virtFold/bin/activate
 #mitmproxy
 #mitmproxy --insecure
 
-sudo mitmproxy -p 443 -R https://tequila.epfl.ch/ --insecure
+#sudo mitmproxy -p 443 -R https://tequila.epfl.ch/ --insecure
+sudo mitmproxy -p 443 -R https://sdf-openid-dev-8-sijing --insecure
 
 
 deactivate
